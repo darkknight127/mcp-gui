@@ -2,6 +2,16 @@
 
 Web UI for browsing Model Context Protocol servers: tools, resources, and prompts. Remote connections support **Bearer profiles** (multiple saved tokens, one active), **custom HTTP headers**, **OAuth 2 client credentials** (manual token URL or MCP metadata flow via the SDK), and merging extra headers with any of the above. Built with [Next.js](https://nextjs.org/) and [`@modelcontextprotocol/sdk`](https://www.npmjs.com/package/@modelcontextprotocol/sdk).
 
+## Screenshots
+
+**Tool UI** — run an MCP tool with generated inputs and inspect structured results.
+
+![MCP GUI tool runner](assets/tool.png)
+
+**Executions (trace log)** — history imported from the server’s `__debug_trace` tool (see [docs/debug-trace.md](docs/debug-trace.md)).
+
+![MCP GUI Executions / trace log](assets/trace_log.png)
+
 ## Requirements
 
 - Node.js 20+

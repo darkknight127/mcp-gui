@@ -8,6 +8,8 @@ This guide explains how to wire **MCP GUI** to your MCP server’s **`__debug_tr
 - The **Executions** tab (next to **Run** on each tool) shows imported trace rows filtered by tool name.
 - The tool is **hidden** from the normal Tools list once MCP GUI detects it.
 
+![MCP GUI Executions tab — trace log UI](../assets/trace_log.png)
+
 ## Prerequisites
 
 - **MCP GUI** running (see the root [README](../README.md): `npm ci`, `npm run dev`, open the app URL).
